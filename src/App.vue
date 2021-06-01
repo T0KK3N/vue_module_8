@@ -16,7 +16,7 @@
       </ul>
     </nav>
     <div v-if="notaActual" class="current-note">
-      <input v-model="notaActual.titulo" />
+      <input v-model="notaActual.titulo" type="text"/>
 
       <textarea v-model="notaActual.contenido"> </textarea>
     </div>
